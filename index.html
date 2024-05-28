@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-front">
+                <h1 style="background: linear-gradient(rgb(147, 198, 223), turquoise, lightskyblue); border-radius:5px;">happy birthday rachelllll</h1>
+                <p></p>
+                <button onclick="toggleCard()">open yay</button>
+            </div>
+            <div class="card-inside">
+                <h2>dear my baby</h2>
+                <p>i've been reflecting on our time together and have always admired your qualities—your strength, your determination to stay and be with me. yet, i believe it is better this way, perhaps your life has become much more peaceful without me. please know that, despite the fact that i left, my support for you remains unwavering.</p>
+                <p>i am genuinely proud of everything you have accomplished so far, and i will continue to be proud of you in the future. i will always hold a special place in my heart for you, and i will forever love you, my baby. </p>
+                <p>i hope today brings genuine happiness for you; your happiness is all i could ever ask for. please remain true to who you are, rachel. you are wonderful, caring, and kindhearted—i hope you realize that. anyway, i hope you have a wonderful birthday, have lots of fun, and enjoy your time.</p>
+                <p> i've been crying since that day. i miss us.</p>
+                <button onclick="toggleCard()">close aw</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleCard() {
+            const card = document.querySelector('.card');
+            card.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
+
+
