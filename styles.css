@@ -12,8 +12,8 @@ body {
     perspective: 1000px;
     width: 90%; /* Updated to be more responsive based on screen width */
     max-width: 400px; /* Maximum width controlled for better appearance */
-    height: 80%; /* Adjust height to fit better in mobile view */
-    max-height: 600px; /* Set a reasonable max-height */
+    height: 90%; /* Adjust height to fit better in mobile view */
+    max-height: 900px; /* Set a reasonable max-height */
 }
 
 .card {
