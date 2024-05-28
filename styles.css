@@ -85,14 +85,14 @@ button:hover {
 @media (max-width: 768px) {
     .card-container {
         max-width: 90%;
-        max-height: 500px;
+        max-height: 800px;
     }
 }
 
 @media (max-width: 480px) {
     .card-container {
         max-width: 95%; /* Make better use of available screen width */
-        max-height: 400px;
+        max-height: 900px;
     }
 
     button {
